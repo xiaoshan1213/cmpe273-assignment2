@@ -1,0 +1,35 @@
+region: us-west-1
+
+function_name: menu_function
+handler: service.lambda_handler
+role: cmpe273_assignment2
+description: Lambda function to update Stream in DynamoDB
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id:
+aws_secret_access_key:
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
+
+
+
+
+
+#region: us-west-2
+#
+#function_name: a2v6
+#handler: service.lambda_handler
+#role: 273a2r5
+#description: Allows EC2 instances to call AWS services on your behalf
+#
+## if access key and secret are left blank, boto will use the credentials
+## defined in the [default] section of ~/.aws/credentials.
+#aws_access_key_id: AKIAJMXL4C7ZNBHDGAAA
+#aws_secret_access_key: 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
+#
+## dist_directory: dist
+## timeout: 15
+## memory_size: 512
